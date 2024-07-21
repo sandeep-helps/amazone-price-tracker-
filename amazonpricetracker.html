@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Price Tracker</title>
+    <link rel="stylesheet" href="pricetrack.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Amazon Price Tracker</h1>
+        <form id="productForm">
+            <label for="productUrl">Product URL:</label>
+            <input type="text" id="productUrl" name="productUrl" required>
+            <button class="submit" type="submit">Track Price</button>
+        </form>
+        <div id="priceDetails">
+            <h2>Product Price Details</h2>
+            <p id="productTitle"></p>
+            <p id="productPrice"></p>
+        </div>
+    </div>
+    <script src="pricetrack.js"></script>
+</body>
+</html>
